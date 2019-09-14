@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import book1 from './calculus.jpg';
+import book2 from './econ.jpg';
+import book3 from './buisness.jpg';
 import user from './user_circle_1048392.png';
 import './App.css';
 
@@ -66,22 +68,22 @@ function App() {
           </div>
         </div>
         <div class="card">
-          <img src={book1} class="card-img-top" alt="..."></img>
+          <img src={book2} class="card-img-top" alt="..."></img>
           <div class="card-body">
-            <h5 class="card-title">Calculus: Early Transcendentals</h5>
-            <p class="card-text">Edition:3rd<br></br>ISBN: 9780134996684<br></br>
-            Author Briggs<br></br>Publisher: Pearson
+            <h5 class="card-title">Microeconomics</h5>
+            <p class="card-text">Edition:3rd<br></br>ISBN: 9780130907868<br></br>
+            Author Perkins<br></br>Publisher: Pearson
             </p>
             <h5 class="card-title"><b>Price: $100</b></h5>
             <a href="#" class="btn btn-primary">Buy Now!</a>
           </div>
         </div>
         <div class="card">
-          <img src={book1} class="card-img-top" alt="..."></img>
+          <img src={book3} class="card-img-top" alt="..."></img>
           <div class="card-body">
-            <h5 class="card-title">Calculus: Early Transcendentals</h5>
-            <p class="card-text">Edition:3rd<br></br>ISBN: 9780134996684<br></br>
-            Author Briggs<br></br>Publisher: Pearson
+            <h5 class="card-title">Construction Business Management </h5>
+            <p class="card-text">Edition:3rd<br></br>ISBN: 9780130907868<br></br>
+            Author Schaufelberger<br></br>Publisher: Pearson
             </p>
             <h5 class="card-title"><b>Price: $100</b></h5>
             <a href="#" class="btn btn-primary">Buy Now!</a>
