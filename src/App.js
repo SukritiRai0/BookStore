@@ -19,6 +19,7 @@ function App() {
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
+          <button type="button" class="btn btn-outline-warning">Sell Books</button>
           <img src={user} class="profile" alt="..." width="50" height="50"></img>
         </div>
       </nav>

@@ -8,6 +8,9 @@
   pointer-events: none;
 }
 
+.btn-outline-warning{
+  margin-left: 1rem;
+}
 .dropdown-toggle{
   margin-right: 1rem;
 }
@@ -21,7 +24,7 @@
 
 .purdue{
   width:1600px;
-  height:350px;
+  height:375px;
   margin-bottom: 1rem;
 }
 .App-link {
