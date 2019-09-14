@@ -18,6 +18,12 @@
 .profile{
   margin-left: 1rem;
 }
+
+.purdue{
+  width:1600px;
+  height:350px;
+  margin-bottom: 1rem;
+}
 .App-link {
   color: #61dafb;
 }
@@ -28,6 +34,9 @@
   margin-top: 1rem;
 }
 
+.navbar-brand{
+  font-size: 35px;
+}
 
 @keyframes App-logo-spin {
   from {
