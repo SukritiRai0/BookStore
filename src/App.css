@@ -8,14 +8,26 @@
   pointer-events: none;
 }
 
-
+.dropdown-toggle{
+  margin-right: 1rem;
+}
 .card{
   width:18rem;
 }
 
+.profile{
+  margin-left: 1rem;
+}
 .App-link {
   color: #61dafb;
 }
+
+.card{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
 
 @keyframes App-logo-spin {
   from {

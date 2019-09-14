@@ -28,15 +28,75 @@ function App() {
         >
         </a>
       </header>
-      <div class="card">
-        <img src={book1} class="card-img-top" alt="..."></img>
-        <div class="card-body">
-          <h5 class="card-title">Calculus: Early Transcendentals</h5>
-          <p class="card-text">Edition:3rd<br></br>ISBN: 9780134996684<br></br>
-          Author Briggs<br></br>Publisher: Pearson
-          </p>
-          <h5 class="card-title"><b>Price: $100</b></h5>
-          <a href="#" class="btn btn-primary">Buy Now!</a>
+      <div class="dropdown">
+        <p className="display-4">Find My Course Materials</p>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Department
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">MA</a>
+          <a class="dropdown-item" href="#">CS</a>
+          <a class="dropdown-item" href="#">Others</a>
+        </div>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Course
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">18000</a>
+          <a class="dropdown-item" href="#">16100</a>
+          <a class="dropdown-item" href="#">Others</a>
+        </div>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Section
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">All</a>
+        </div>
+        </div>
+      <div class="row justify-content-center">
+        <div class="card">
+          <img src={book1} class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Calculus: Early Transcendentals</h5>
+            <p class="card-text">Edition:3rd<br></br>ISBN: 9780134996684<br></br>
+            Author Briggs<br></br>Publisher: Pearson
+            </p>
+            <h5 class="card-title"><b>Price: $100</b></h5>
+            <a href="#" class="btn btn-primary">Buy Now!</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src={book1} class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Calculus: Early Transcendentals</h5>
+            <p class="card-text">Edition:3rd<br></br>ISBN: 9780134996684<br></br>
+            Author Briggs<br></br>Publisher: Pearson
+            </p>
+            <h5 class="card-title"><b>Price: $100</b></h5>
+            <a href="#" class="btn btn-primary">Buy Now!</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src={book1} class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Calculus: Early Transcendentals</h5>
+            <p class="card-text">Edition:3rd<br></br>ISBN: 9780134996684<br></br>
+            Author Briggs<br></br>Publisher: Pearson
+            </p>
+            <h5 class="card-title"><b>Price: $100</b></h5>
+            <a href="#" class="btn btn-primary">Buy Now!</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src={book1} class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Calculus: Early Transcendentals</h5>
+            <p class="card-text">Edition:3rd<br></br>ISBN: 9780134996684<br></br>
+            Author Briggs<br></br>Publisher: Pearson
+            </p>
+            <h5 class="card-title"><b>Price: $100</b></h5>
+            <a href="#" class="btn btn-primary">Buy Now!</a>
+          </div>
         </div>
       </div>
     </div>
